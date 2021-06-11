@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "946569072197",
+    "project_id": "cashmoneyrewards-4385b",
+    "storage_bucket": "cashmoneyrewards-4385b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946569072197:android:af390e9fc000d335271d2c",
+        "android_client_info": {
+          "package_name": "com.example.CashMoneyRewards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946569072197-9mohd9l1t57lok1euvqeiseltg0ppton.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.CashMoneyRewards",
+            "certificate_hash": "e7bfcfa6874fc8b1dd2e368a391bacb36b4b624e"
+          }
+        },
+        {
+          "client_id": "946569072197-i7coqspkai6krhmicl4kbug5942v73o0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU58QfGzZFwMo9JkGptfNQ7C8VX78Nb7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946569072197-i7coqspkai6krhmicl4kbug5942v73o0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

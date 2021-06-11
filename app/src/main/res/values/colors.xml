@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#FF9301</color>
+    <color name="colorPrimaryDark">#FF3E2D</color>
+    <color name="colorSecondary">#E75370</color>
+    <color name="colorSecondaryDark">#C35CEF</color>
+    <color name="red">#F40909</color>
+    <color name="profileBackground">#fff</color>
+    <color name="textColor">#8C8787</color>
+    <color name="gray">#2d2d2d</color>
+    <color name="background">#FFFFFF</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="transparent">#00000000</color>
+    <color name="purple">#ac3ef9</color>
+    <color name="blackTxt">#0d0e15</color>
+    <color name="grayTxt">#8c8c8c</color>
+    <color name="light_gray40">#8d95989a</color>
+    <color name="fav">#fe2042</color>
+    <color name="txt_color">#1f2833</color>
+    <color name="active_color">#dd3e3e</color>
+    <color name="inactive_color">#a0a0a0</color>
+    <color name="myfav">#007aff</color>
+    <color name="purple_701">#7b1fa2</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorOrange">#f1a86c</color>
+    <color name="mmf">#83ffffff</color>
+    <color name="lbl_email">#333333</color>
+    <color name="input_login">#222222</color>
+    <color name="input_register">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register_hint">#999999</color>
+    <color name="btn_login_register">#2196F3</color>
+    <color name="blue">#1E88E5</color>
+    <color name="light_line_color">#9B9B9B</color>
+    <color name="general_color">#ECEFF0</color>
+    <color name="general_green">#41C087</color>
+    <color name="contentTextColor">#020000</color>
+    <color name="darkTextColor">#020000</color>
+    <color name="primaryTextColor">#11CFC5</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="main_color">#FF1FDE64</color>
+
+
+    <color name="buttonColor">#ffba01</color>
+    <color name="disabledButtonColor">#f9dc8d</color>
+    <color name="pressedButtonColor">#dca30a</color>
+    <color name="buttonTextColor">#7e5c09</color>
+    <color name="buttonBorderColor">#cf9b1f</color>
+    <color name="backgroundColor">#f1f0ec</color>
+
+    <color name="tabColor">#ffba01</color>
+    <color name="disabledTabColor">#f9dc8d</color>
+    <color name="pressedTabColor">#dca30a</color>
+    <color name="tabTextColor">#7e5c09</color>
+    <color name="tabBackgroundColor">#000000</color>
+    <color name="tabBorderColor">#000000</color>
+
+    <color name="disableSwitchColor">#C0C0C0</color>
+
+
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.CashMoneyRewards">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <permission
+        android:name="YOUR.PACKAGE.NAME.HERE.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="YOUR.PACKAGE.NAME.HERE.permission.C2D_MESSAGE" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CashMoneyRewards">
+        <activity android:name=".pubgmobile_uc8400">
+        </activity>
+        <activity android:name=".pubgmobile_uc4000" />
+        <activity android:name=".pubgmobile_uc1875" />
+        <activity android:name=".pubgmobile_uc690" />
+        <activity android:name=".pubgmobile_uc340" />
+        <activity android:name=".pubgmobile_uc60" />
+        <activity android:name=".vodafone100" />
+        <activity android:name=".vodafone300" />
+        <activity android:name=".vodafone250" />
+        <activity android:name=".vodafone200" />
+        <activity android:name=".vodafone150" />
+        <activity android:name=".vodafone50" />
+        <activity android:name=".googleplay100usd" />
+        <activity android:name=".googleplay50usd" />
+        <activity android:name=".googleplay25usd" />
+        <activity android:name=".googleplay10usd" />
+        <activity android:name=".paypal50usd" />
+        <activity android:name=".paypal40usd" />
+        <activity android:name=".paypal30usd" />
+        <activity android:name=".paypal20usd" />
+        <activity android:name=".paypal10usd" />
+        <activity android:name=".paypal5usd" />
+        <activity android:name=".vodafonecash" />
+        <activity android:name=".pubgmobile" />
+        <activity android:name=".googleplay" />
+        <activity android:name=".paypal" />
+
+        <meta-data
+            android:name="firebase_performance_logcat_enabled"
+            android:value="true" />
+
+        <activity android:name="com.appzilo.InterstitialAdActivity" />
+        <activity android:name=".ayetstudiosActivity" />
+
+        <meta-data
+            android:name="com.startapp.sdk.142571856"
+            android:value="204897657" />
+        <meta-data
+            android:name="com.adgem.Config"
+            android:resource="@xml/adgem_config" />
+
+        <provider
+            android:name="com.startapp.sdk.adsbase.StartAppInitProvider"
+            android:authorities="${applicationId}.startappinitprovider"
+            android:exported="false" />
+
+        <activity
+            android:name="com.startapp.sdk.adsbase.consent.ConsentActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.startapp.sdk.ads.list3d.List3DActivity"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.startapp.sdk.ads.interstitials.OverlayActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <service android:name="com.startapp.sdk.cachedservice.BackgroundService" />
+        <service
+            android:name="com.startapp.sdk.jobs.SchedulerService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver android:name="com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.tapjoy.GCMReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.gcm.intent.RETRY" />
+
+                <category android:name="YOUR.PACKAGE.NAME.HERE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.tapjoy.TapjoyReceiver" />
+
+        <activity
+            android:name="com.tapjoy.TJAdUnitActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.tapjoy.TJContentActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".forgotPassword" />
+        <activity android:name=".appziloActivity" />
+        <activity android:name=".adgameActivity" />
+        <activity android:name=".offertoroActivity" />
+        <activity android:name=".supportActivity" />
+        <activity android:name=".RewardActivity" />
+        <activity android:name=".offersActivity" />
+        <activity android:name=".WatchActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Publisher SDK Specific -->
+        <activity
+            android:name="com.ayetstudios.publishersdk.OfferwallActivity"
+            android:configChanges="orientation|screenSize">
+            <intent-filter android:label="offer">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="com.example.cashmoneyrewards"
+                    android:scheme="offer" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ayetstudios.publishersdk.VideoActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <meta-data
+            android:name="AYET_APP_KEY"
+            android:value="03affa44f14243b36977e1b296ee90ab" /> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8094329271100703~6856041402" />
+
+        <provider
+            android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"
+            android:authorities="${applicationId}.TTMultiProvider"
+            android:exported="false" />
+
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="VkkTO08hJD1BCpO8ci8hZWhp50TZKtH9RROm-X9ALRMd0Xd_EgCU3DQ5oKuWMsuU2Rx9p_ne3MF3vRSS7cf35f" />
+    </application>
+
+</manifest>
